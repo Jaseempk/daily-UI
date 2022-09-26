@@ -1,0 +1,137 @@
+body{
+  text-align: left;
+
+}
+h1{
+  font-size:3.5rem;
+  font-family: "Lexend";
+  font-weight: bold;
+  padding:0 0 25px;
+}
+.para{
+  color: #fff;
+}
+#title{
+  color: white;
+  background-color: #f9c5d1;
+  background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  padding-top: 0;
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  margin-top:25px;
+  font-family: "Lexend";
+  font-size: 0.9rem;
+  color:#fff;
+}
+.navbar{
+  padding-bottom:60px;
+}
+
+.rocket-img{
+  width:60%;
+  border-radius: 50%;
+  margin:25px;
+  background-color: #f9c5d1;
+  background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+}
+.icon{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.button-icon{
+  margin:15% 2% 5%;
+}
+.login-box{
+  position: absolute;
+  top: 69%;
+  right:0;
+  width: auto;
+  padding: 50px;
+  transform: translate(-50%,-50%);
+  background:rgb(0, 0, 0, 0.5);
+  box-sizing:border-box;
+  box-shadow:0 15px 25px rgb(0,0,0,.6);
+  border-radius: 10px;
+}
+.login-box .user-box{
+  position: relative;
+}
+
+.login-box .user-box label{
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition:.5s;
+}
+.login-box .user-box input{
+  width: 100%;
+  padding: 10px 0;
+  font-size:1rem;
+  color:#fff;
+  margin-bottom:30px;
+  border: none;
+  border-bottom:1px solid #fff;
+  outline:none;
+  background: transparent;
+}
+.login-box a:hover{
+  background-color:#9795ef;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 7px #03e9f4,
+              0 0 7px #03e9f4,
+              0 0 7px #03e9f4,
+              0 0 7px #03e9f4;
+}
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+  top: -20px;
+  left: 0;
+  color:#03e9f4;
+  font-size: 12px;
+
+}
+.login-box  form a{
+  position: relative;
+  display: inline-block;
+  padding:10px 20px;
+  color:#03e9f4;
+  font-size:1rem;
+  text-decoration:none;
+  text-transform:uppercase;
+  overflow:hidden;
+  transition:.5s;
+  margin-top:40px;
+  letter-spacing:4px;
+
+}
+.submit{
+  text-align: center;
+}
+/* .icons{
+  position: absolute;
+  bottom: 0;
+  text-align:left;
+} */
+
+
+@media (max-width:1029px){
+#title{
+
+}
+#title .login{
+
+
+}
+}
